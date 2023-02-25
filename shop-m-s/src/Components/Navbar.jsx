@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import {Link as RouterLink} from "react-router-dom"
 import {
   Box,
   Flex,
@@ -56,8 +57,11 @@ export default function Navbar() {
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
              
-
+<RouterLink to="/women" >
 <NavLink >WOMEN</NavLink>
+
+</RouterLink>
+
 <NavLink >MEN</NavLink>
 <NavLink >BEAUTY</NavLink>
 <NavLink >KIDS</NavLink>

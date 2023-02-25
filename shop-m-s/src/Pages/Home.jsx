@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from '@chakra-ui/react'
-import { Grid, GridItem,Heading,Text,Box } from '@chakra-ui/react'
+import { Grid, GridItem,Heading,Text,Box,Button } from '@chakra-ui/react'
 import Stores from './Stores';
 import Stores1 from './Stores1';
 import Stores2 from './Stores2';
@@ -8,7 +8,11 @@ import Footer from './Footer';
 export default function Home() {
 return( 
     <>
-<div>
+<div 
+style={{
+width:"80%",
+margin :"auto",
+}} >
  <Image h="100%" w="100%" src='https://cdn.modesens.com/static/img/20221009_bg1.png' alt='Dan Abramov' />
 </div>
 
@@ -117,7 +121,13 @@ margin:"  auto"
 <Image h="80%"w="100%"src='https://cdn.modesens.com/static/img/20220915-bg3.png'alt='Dan Abramov'/> 
 </Grid>
 </div>
+<Box m = "50">
 <p>Join Today to Unleash the Full Power of ModeSens</p>
+  </Box>
+
+
+<Button  colorScheme='red'>JOIN NOW FOR FREE</Button>
+
 <hr></hr>
 <Footer/>
 </>
