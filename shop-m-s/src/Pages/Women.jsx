@@ -1,6 +1,6 @@
 import react from "react";
 import { border, Image } from '@chakra-ui/react'
-import { Grid, GridItem,Heading,Text,Box,head } from '@chakra-ui/react'
+import { Grid, GridItem,Heading,Text,Box,head,Button } from '@chakra-ui/react'
 import Footer from "./Footer";
 import Down from './Down';
 
@@ -39,6 +39,7 @@ margin:" 20px auto"
   <GridItem><Image h="80%"w="80%"src='https://cdn.modesens.com/banner/20220708-ITALIST-logo.png'alt='Dan Abramov'/></GridItem>
   <GridItem><Image h="80%"w="80%"src='https://cdn.modesens.com/banner/20220708-CETTIRE-logo.png'alt='Dan Abramov'/></GridItem>
   <GridItem><Image h="80%"w="80%"src='https://cdn.modesens.com/banner/20220708-LUISAVIAROMA-logo.png'alt='Dan Abramov' /></GridItem>
+  <GridItem><Image h="80%"w="80%"src='https://cdn.modesens.com/banner/20211014-BURBERRY-logo.png'alt='Dan Abramov'/></GridItem>
 </Grid>
 </div>
 
@@ -54,10 +55,10 @@ boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;"
 }} >
 
 <Grid templateColumns='repeat(4, 1fr)' gap={4}>
-  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/product/23113042_60?w=400'alt='Dan Abramov'/><Box>Toteme</Box> </GridItem>
-  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/availability/55242864?w=400'alt='Dan Abramov'/><Box>MONCLER</Box></GridItem>
-  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/availability/58677127?w=400'alt='Dan Abramov'/><Box>PERFECT MOMENT</Box></GridItem>
-  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/product/54025914_1?w=400'alt='Dan Abramov'/><Box>TOTEME</Box></GridItem>
+  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/product/23113042_60?w=400'alt='Dan Abramov'/><Box>Toteme</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button> </GridItem>
+  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/availability/55242864?w=400'alt='Dan Abramov'/><Box>MONCLER</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button></GridItem>
+  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/availability/58677127?w=400'alt='Dan Abramov'/><Box>PERFECT MOMENT</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button></GridItem>
+  <GridItem><Image h="80%" w="80%" src='https://cdn.modesens.com/product/54025914_1?w=400'alt='Dan Abramov'/><Box>TOTEME</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button></GridItem>
 </Grid>
 </div>
 <hr></hr>
@@ -73,9 +74,9 @@ boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;"
 }} >
 
 <Grid templateColumns='repeat(3, 1fr)' gap={4}>
-  <GridItem><Image h="70%" w="80%" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84DuEV90mFsd-IgYpF_KjgIlMQML48YNnQw&usqp=CAU'alt='Dan Abramov'/><Box>TIME TO SHINE</Box></GridItem>
-  <GridItem><Image h="70%" w="80%" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaU1FjLohrMRSPCQVE1SiXCYwZ1iHdbAry5A&usqp=CAU'alt='Dan Abramov'/><Box>MONCLER</Box></GridItem>
-  <GridItem><Image h="70%" w="80%" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXGGmTepnumgGvmcgLaW6UZlvtBryoxBg2Zg&usqp=CAU'alt='Dan Abramov'/><Box>PERFECT MOMENT</Box></GridItem>
+  <GridItem><Image h="70%" w="80%" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84DuEV90mFsd-IgYpF_KjgIlMQML48YNnQw&usqp=CAU'alt='Dan Abramov'/><Box>TIME TO SHINE</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button></GridItem>
+  <GridItem><Image h="70%" w="80%" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaU1FjLohrMRSPCQVE1SiXCYwZ1iHdbAry5A&usqp=CAU'alt='Dan Abramov'/><Box>MONCLER</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button></GridItem>
+  <GridItem><Image h="70%" w="80%" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXGGmTepnumgGvmcgLaW6UZlvtBryoxBg2Zg&usqp=CAU'alt='Dan Abramov'/><Box>PERFECT MOMENT</Box><p>Lorem ipsum dolor sit amet consectetur.</p><Button>SHOP NOW</Button></GridItem>
 </Grid>
 </div>
 
@@ -91,10 +92,10 @@ boxShadow: "rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8p
 }} >
 
 <Grid templateColumns='repeat(4, 1fr)' gap={4}>
-  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/45835347?w=400'alt='Dan Abramov'/><Box>VERSACE</Box></GridItem>
-  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/58843916?w=400'alt='Dan Abramov'/><Box>ZIMMERBANN</Box></GridItem>
-  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/59249890?w=400'alt='Dan Abramov'/><Box>KHAITE</Box></GridItem>
-  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/59219459?w=400'alt='Dan Abramov'/><Box>MAX MARA</Box></GridItem>
+  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/45835347?w=400'alt='Dan Abramov'/><Box fontSize="20px">VERSACE</Box><p>Lorem ipsum dolor sit amet consectetur.</p></GridItem>
+  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/58843916?w=400'alt='Dan Abramov'/><Box>ZIMMERBANN</Box><p>Lorem ipsum dolor sit amet consectetur.</p></GridItem>
+  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/59249890?w=400'alt='Dan Abramov'/><Box>KHAITE</Box><p>Lorem ipsum dolor sit amet consectetur.</p></GridItem>
+  <GridItem><Image h="60%" w="80%" src='https://cdn.modesens.com/availability/59219459?w=400'alt='Dan Abramov'/><Box>MAX MARA</Box><p>Lorem ipsum dolor sit amet consectetur.</p></GridItem>
 </Grid>
 </div>
 
