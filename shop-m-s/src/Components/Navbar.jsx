@@ -79,12 +79,13 @@ export default function Navbar() {
           <Flex alignItems={'center'}>
             <Menu>
             <Image ml="30px" src="https://cdn.modesens.com/static/img/prd-update-20191109.svg"/>
-            <Image ml="30px" src="https://cdn.modesens.com/static/img/prd-update-20191109.svg"/>
             <Image ml="30px" src="https://cdn.modesens.com/static/img/20210601heart.svg"/>
             <Image ml="30px" src="https://cdn.modesens.com/static/img/20200612shopping_bag2.svg"/>
             <RouterLink to="/login" >
             <Image ml="30px" src="https://cdn.modesens.com/static/img/20200612account_b2.svg"/>
             </RouterLink>
+            <Image ml="30px" src=""/>
+          
 
               <MenuButton
                 as={Button}
