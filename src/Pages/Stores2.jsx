@@ -32,7 +32,7 @@ margin:"auto"
           </p></div>
             
         </Flex>
-        <Flex flex={1}>
+        <Flex flex={1} className='imageFlex'>
            <Image h="70%"
             alt={'Login Image'}
             objectFit={'cover'}

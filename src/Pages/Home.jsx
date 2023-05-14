@@ -4,6 +4,7 @@ import { Grid, GridItem,Heading,Text,Box,Button } from '@chakra-ui/react'
 import Stores from './Stores';
 import Stores1 from './Stores1';
 import Stores2 from './Stores2';
+import Shop from './Shop';
 import Footer from './Footer';
 export default function Home() {
 return( 
@@ -109,6 +110,8 @@ margin:"  auto"
   <GridItem><Image h="80%"w="100%"src='https://cdn.modesens.com/banner/20220916Category-home-modesens.jpg'alt='Dan Abramov'/></GridItem>
 </Grid>
 </div>
+  
+  <Shop/>
 
 <Stores1/>
 

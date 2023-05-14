@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/59156463?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "VERSALE",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 370,
+      "about": "Compare 27 stores",
+      "category": "Tops"
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/57942369?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "KHAITE",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 1180,
+      "about": "Compare 27 stores",
+      "category": "Skirts"
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "img": "https://cdn.modesens.com/product/40828845_1?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "KHAITE",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 354,
+      "about": "Compare 7 stores",
+      "category": "Gowns"
+    },
+    {
+      "id": 4,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/58682545?w=400",
+      "imgArray": [
+        "https://images.lvrcdn.com/Zoom77I/GF9/014_90df0c43-ea08-4404-aaa0-e810dab176ea.JPG",
+        "https://images.lvrcdn.com/Zoom77I/GF9/014_8cb835fe-cda4-4fb5-b8c0-5d87514be29c.JPG",
+        "https://images.lvrcdn.com/Zoom77I/GF9/014_0adc0c3c-e3e8-471c-b421-cb74b53a92d1.JPG"
+      ],
+      "designer": "ZIMMERMANN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 170,
+      "about": "Compare 14 stores",
+      "category": "Trousers"
+    },
+    {
+      "id": 5,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0274/7695/1137/products/a0862909c97d1eb0110f3af2f891292a.jpg?v=1680177954",
+      "imgArray": [
+        "https://images.lvrcdn.com/Zoom77I/GF9/014_90df0c43-ea08-4404-aaa0-e810dab176ea.JPG",
+        "https://images.lvrcdn.com/Zoom77I/GF9/014_8cb835fe-cda4-4fb5-b8c0-5d87514be29c.JPG",
+        "https://images.lvrcdn.com/Zoom77I/GF9/014_0adc0c3c-e3e8-471c-b421-cb74b53a92d1.JPG"
+      ],
+      "designer": "DOLCE $ GABBAANA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 599,
+      "about": "Compare 6 stores",
+      "category": "Pants"
+    },
+    {
+      "id": 6,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0274/7695/1137/products/9e223151b8858f82435c926b5600ffec_fc69fca5-c2a7-48f6-90d5-1df9f44a2c48.jpg?v=1681768207",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ALICE AND OLIVIA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 673,
+      "about": "Compare 8 stores",
+      "category": "T-shirt"
+    },
+    {
+      "id": 7,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0274/7695/1137/products/42448267bac9219e4bb1dcccc4814181.jpg?v=1678844710",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "LAVVIN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 1913,
+      "about": "Compare 7 stores",
+      "category": "T-shirt"
+    },
+    {
+      "id": 8,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/59051986?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "Ganni",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 3862,
+      "about": "Compare 28 stores",
+      "category": "T-shirt"
+    },
+    {
+      "id": 9,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/59135880?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ZIMMERMANN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 370,
+      "about": "Compare 20 stores",
+      "category": "One-piece"
+    },
+    {
+      "id": 10,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0291/4536/6588/products/2ce96e566589415da689ff0567010382_973d1e1b-61fa-4562-887d-2bf7daf8c965.jpg?v=1673524951",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "MAX MARA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 376,
+      "about": "Compare 25 stores",
+      "category": "One-piece"
+    },
+    {
+      "id": 11,
+      "icon": "",
+      "img": "https://cdn.modesens.com/product/49348346_5?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ALICE AND OLIVIA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 370,
+      "about": "Compare 8 stores",
+      "category": "One-piece"
+    },
+    {
+      "id": 12,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/56127196?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "MAX MARA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 270,
+      "about": "Compare 22 stores",
+      "category": "Bodycon"
+    },
+    {
+      "id": 13,
+      "icon": "",
+      "img": "https://cdn.modesens.com/product/49648463_3?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "VERSALE",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 1278,
+      "about": "Compare 27 stores",
+      "category": "Bodycon"
+    },
+    {
+      "id": 14,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/57942369?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "KHAITE",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 980,
+      "about": "Compare 27 stores",
+      "category": "Bodycon"
+    },
+    {
+      "id": 15,
+      "icon": "",
+      "img": "https://assetsprx.matchesfashion.com/img/product/500/1511817_1.jpg",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "Ganni",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 354,
+      "about": "Compare 7 stores",
+      "category": "Maxi"
+    },
+    {
+      "id": 16,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/58682545?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ZIMMERMANN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 170,
+      "about": "Compare 14 stores",
+      "category": "Maxi"
+    },
+    {
+      "id": 17,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0274/7695/1137/products/a0862909c97d1eb0110f3af2f891292a.jpg?v=1680177954",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "DOLCE $ GABBAANA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 599,
+      "about": "Compare 6 stores",
+      "category": "Maxi"
+    },
+    {
+      "id": 18,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0274/7695/1137/products/9e223151b8858f82435c926b5600ffec_fc69fca5-c2a7-48f6-90d5-1df9f44a2c48.jpg?v=1681768207",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ALICE AND OLIVIA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 673,
+      "about": "Compare 8 stores",
+      "category": "Maxi"
+    },
+    {
+      "id": 19,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0274/7695/1137/products/42448267bac9219e4bb1dcccc4814181.jpg?v=1678844710",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "LAVVIN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 1913,
+      "about": "Compare 7 stores",
+      "category": "Jeans"
+    },
+    {
+      "id": 20,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/59051986?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ZIMMERMANN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 3862,
+      "about": "Compare 28 stores",
+      "category": "Jeans"
+    },
+    {
+      "id": 21,
+      "icon": "",
+      "img": "https://cdn.modesens.com/availability/59135880?w=400",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ZIMMERMANN",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 370,
+      "about": "Compare 20 stores",
+      "category": "Jeans"
+    },
+    {
+      "id": 22,
+      "icon": "",
+      "img": "https://cdn.shopify.com/s/files/1/0291/4536/6588/products/87c26459221f4b8f8dc94af368a2a6ef_960x.jpg?v=1681813026",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "MAX MARA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 370,
+      "about": "Compare 25 stores",
+      "category": "Jeans"
+    },
+    {
+      "id": 23,
+      "icon": "",
+      "img": "https://cdn.modesens.com/media/142015569",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "ALICE AND OLIVIA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 5764,
+      "about": "Compare 8 stores",
+      "category": "Jeans"
+    },
+    {
+      "id": 24,
+      "icon": "",
+      "img": "https://img.mytheresa.com/1000/1000/95/jpeg/catalog/product/77/P00580461_b1.jpg",
+      "imgArray": [
+        "https://n.nordstrommedia.com/id/sr3/0a809146-0e53-4870-ad5c-a9e8ee95191b.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/6aae5414-775c-4997-94ee-b13f0a0df6f6.jpeg?w=780&h=838",
+        "https://n.nordstrommedia.com/id/sr3/c22364b1-5200-468f-ae7d-24e7399fc118.jpeg?w=780&h=838"
+      ],
+      "designer": "MAX MARA",
+      "detail": "Safety Pin Crop Cotton Logo Graphic Tee in Piink & Purple",
+      "price": 765,
+      "about": "Compare 22 stores",
+      "category": "Jeans"
+    }
+  ]
+}
