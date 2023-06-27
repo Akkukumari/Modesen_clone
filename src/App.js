@@ -11,26 +11,25 @@ import {
 } from "@chakra-ui/react";
 import SignUp from "./Components/SignUp";
 import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { useNavigate } from 'react-router-dom';
+
 
 function App() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const {isAuth} =  useSelector((state) => state.authReducer);
+  const navigate=useNavigate()
+
+
+  console.log("isAuth", isAuth);
 
   useEffect(() => {
-    setInterval(() => {
-      // onOpen();
-    }, 2000);
-  }, []);
+    navigate('/')
+  }, [isAuth])
 
   return (
     <div className="App">
       <Navbar />
       <AllRoutes />
-      <Modal isOpen={isOpen} onClose={onClose} isCentered>
-        <ModalOverlay />
-        <ModalContent>
-          <SignUp />
-        </ModalContent>
-      </Modal>
     </div>
   );
 }

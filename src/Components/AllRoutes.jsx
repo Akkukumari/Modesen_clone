@@ -8,6 +8,7 @@ import ProductPage from "../Pages/ProductPage";
 import Product from "../Pages/Product";
 import { Order } from "../Pages/Order";
 import { Payment } from "../Pages/Payment";
+import SignupCard from "./SignUp";
 
 export default function AllRoutes() {
   return (
@@ -27,6 +28,7 @@ export default function AllRoutes() {
       <Route path="/shop-new-preowned" element={<ProductPage />}></Route>
       <Route path="/product/:id" element={<Product />}/>
       <Route path="/order" element={<Order />}/>
+      <Route path="/signup" element={<SignupCard />}/>
       <Route path="/payment" element={<Payment />}/>
       <Route path="*" element={<h1>Page not found</h1>}></Route>
     </Routes>

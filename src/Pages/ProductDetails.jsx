@@ -13,6 +13,7 @@ export const ProductDetails = ({
   about,
   el,
 }) => {
+  console.log("products map", el)
   return (
     <Link to={`/product/${id}`} state={{ data: el }}>
       <div className="itemBody">

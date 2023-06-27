@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { login } from "../redux/authReducer/action";
+import { useNavigate } from 'react-router-dom';
 import {
   Flex,
   Box,
@@ -30,13 +31,13 @@ export default function Login() {
     dispatch(login(userDetail));
   };
   return (
-    <Flex
+    <Flex 
       minH={"100vh"}
       align={"center"}
       justify={"center"}
       bg={useColorModeValue("gray.50", "gray.800")}
     >
-      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
+      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6} className="login-body">
         <Stack align={"center"}>
           <Heading fontSize={"4xl"}>Login to your account</Heading>
           <Text fontSize={"lg"} color={"gray.600"}>

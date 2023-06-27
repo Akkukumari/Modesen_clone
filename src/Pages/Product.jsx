@@ -140,10 +140,6 @@ export default function Product() {
 
               <List spacing={2}>
                 <ListItem className="pro-details">
-                  {/* Zimmermann Wonderland Mini Dress In White linen and viscose
-                  blend featuring a <br></br>
-                  multicolor floral print, V-neck,smocked,flared pleated skirt
-                  and zip at center back.<br></br> */}
                   Material 52% linen, 48% silk organza mix.<br></br>
                   Made in China 52,5%Li47,5Se.<br></br>
                   Model is wearing a size0<br></br>

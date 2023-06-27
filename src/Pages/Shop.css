@@ -23,6 +23,7 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   width: 100%;
+  height: fit-content;
 }
 .product-parent {
   width: 80%;
@@ -312,6 +313,8 @@
   border: 1px solid rgba(255, 0, 0, 0.802);
   /* padding: 10px 5px; */
   padding: 5px 5px 5px 5px;
+ margin-right: 10px;
+ margin-bottom: 10px;
 }
 .pricee {
   padding-left: 10px;
@@ -376,6 +379,7 @@
   color: white;
   font-weight: 600;
   padding: 10px 145px 10px 145px;
+  margin-top: 20px;
 }
 
 .order-products {
@@ -477,4 +481,76 @@
 
 .smallImg img {
   width: 100px;
+}
+.login-body{
+  background-color: lightgrey;
+}
+
+.wishlist{
+ margin-left: 15px;
+ width: 100%;
+ height: 600%;
+  /* border: 1px solid red; */
+}
+
+.bag{
+  margin-left: 20px;
+ width: 90%;
+ height: 600%; 
+}
+
+.closing{
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+
+.pay-detail{
+  display: flex;
+  /* margin: auto; */
+}
+
+.pay-pay{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-detal{
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+.last-step{
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px 5px 5px 5px;
+}
+
+.confirm{
+  color: rgba(255, 0, 0, 0.802);
+  border: 1px solid rgba(255, 0, 0, 0.802);
+}
+
+.cancel{
+  /* background-color: white; */
+  color: rgba(255, 0, 0, 0.802);
+  border: 1px solid rgba(255, 0, 0, 0.802);
+}
+
+.card_number{
+  position: relative !important;
+}
+
+.card_icon {
+  position: absolute !important; 
+  display: inline;
+  right:20px;
+  top:10px;
 }

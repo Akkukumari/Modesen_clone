@@ -16,7 +16,7 @@ const ProductFilter = () => {
     "Maxi",
     "Jeans",
   ];
-  const designer = [
+  const designers = [
     "Versale",
     "Khaite",
     "Ganni",
@@ -26,7 +26,7 @@ const ProductFilter = () => {
     "Dolce & Gabbaama",
     "Max Mara",
   ];
- const price=[
+  const price = [
     "Under $400",
     " $400- $600",
     "$600- $800",
@@ -34,60 +34,71 @@ const ProductFilter = () => {
     "$1000- $1200",
     "$1400- $1600",
     "$1600 and Above",
- ];
- const color = [
-  "Red",
-  "Yellow",
-  "Pink",
-  "Green",
-  "Purple",
-  "Brown",
-  "Black",
-  "Orange",
-  "White",
-  "Blue",
-  "Olive",
-  "Beige",
-  "Brown",
-  "Gold",
-  "Navy Blue",
-  "Marron",
-  "Mauve",
-  "Rust",
-  "Sea Green",
-  "Tan",
-  "Grey",
-  "Teal",
-  "Mustard",
-  "Off White",
-  "Lime Green",
-  "Rose"
-];
-const [searchParams, setSearchParams] = useSearchParams();
-const initialCategory = searchParams.getAll("category");
-const [category, setCategory] = useState(initialCategory || []);
+  ];
+  const color = [
+    "Red",
+    "Yellow",
+    "Pink",
+    "Green",
+    "Purple",
+    "Brown",
+    "Black",
+    "Orange",
+    "White",
+    "Blue",
+    "Olive",
+    "Beige",
+    "Brown",
+    "Gold",
+    "Navy Blue",
+    "Marron",
+    "Mauve",
+    "Rust",
+    "Sea Green",
+    "Tan",
+    "Grey",
+    "Teal",
+    "Mustard",
+    "Off White",
+    "Lime Green",
+    "Rose",
+  ];
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialCategory = searchParams.getAll("category");
+  const [category, setCategory] = useState(initialCategory || []);
 
-const handleCategoryFilter = (e) => {
-  let newCategory = [...category];
-  const value = e.target.value;
-  if(newCategory.includes(value)) {
-    newCategory= newCategory.filter(el => el!== value)
-  } else {
-    newCategory.push(value);
-  }
-  setCategory(newCategory);
-};
+  const initialDesigner = searchParams.getAll("designer");
+  const [designer, setDesigner] = useState(initialDesigner || []);
 
-const handleFilter = (e) => {
+  const handleCategoryFilter = (e) => {
+    let newCategory = [...category];
+    const value = e.target.value;
+    if (newCategory.includes(value)) {
+      newCategory = newCategory.filter((el) => el !== value);
+    } else {
+      newCategory.push(value);
+    }
+    setCategory(newCategory);
+  };
 
-}
+  const handleFilter = (e) => {
+    let newDesigner = [...designer];
+    const value = e.target.value;
+    if (newDesigner.includes(value)) {
+      newDesigner = newDesigner.filter((el) => el !== value);
+    } else {
+      newDesigner.push(value);
+    }
+    setDesigner(newDesigner);
+  };
 
-useEffect(() => {
-  let params = {};
-  category && (params.category = category);
-  console.log(params);
-  setSearchParams(params);
-}, [category]);
+  useEffect(() => {
+    let params = {};
+    category && (params.category = category);
+    designer && (params.designer = designer);
+    console.log(params);
+    setSearchParams(params);
+  }, [category, designer]);
 
   return (
     <div className="product-filter">
@@ -102,8 +113,13 @@ useEffect(() => {
         </div>
         {categories?.map((el) => (
           <div key={el} className="filter-items">
-            <input type="checkbox" value={el}  name="category" checked={category.includes(el)}
-          onChange={(e) => handleCategoryFilter(e)}/>
+            <input
+              type="checkbox"
+              value={el}
+              name="category"
+              checked={category.includes(el)}
+              onChange={(e) => handleCategoryFilter(e)}
+            />
             <div>{el}</div>
           </div>
         ))}
@@ -113,10 +129,15 @@ useEffect(() => {
           <div>DESIGNER</div>
           <SearchIcon />
         </div>
-        {designer?.map((el) => (
+        {designers?.map((el) => (
           <div key={el} className="brand-items">
-            <input type="checkbox" value={el}  name="brnd"
-          onChange={(e) => handleFilter(e)} />
+            <input
+              type="checkbox"
+              value={el}
+              name="brnd"
+              checked={designer.includes(el)}
+              onChange={(e) => handleFilter(e)}
+            />
             <div>{el}</div>
           </div>
         ))}
@@ -128,8 +149,12 @@ useEffect(() => {
         </div>
         {price?.map((el) => (
           <div key={el} className="price-items">
-            <input type="checkbox" value={el}  name="sort"
-          onChange={(e) => handleFilter(e)} />
+            <input
+              type="checkbox"
+              value={el}
+              name="sort"
+              onChange={(e) => handleFilter(e)}
+            />
             <div>{el}</div>
           </div>
         ))}
@@ -141,8 +166,12 @@ useEffect(() => {
         </div>
         {color?.map((el) => (
           <div key={el} className="color-items">
-            <input type="checkbox" value={el} name="sort"
-          onChange={(e) => handleFilter(e)}  />
+            <input
+              type="checkbox"
+              value={el}
+              name="sort"
+              onChange={(e) => handleFilter(e)}
+            />
             <div>{el}</div>
           </div>
         ))}

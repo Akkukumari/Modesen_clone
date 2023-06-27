@@ -14,6 +14,7 @@ const ProductPage = () => {
   let obj = {
     params: {
       category: searchParams.getAll("category"),
+      designer: searchParams.getAll("designer").map(el => el.toUpperCase()),
     },
   };
 

@@ -88,7 +88,7 @@ export const Order = () => {
                 </div>
               </div>
             </div>
-            <CloseIcon />
+            <CloseIcon className="closing"/>
           </div>
         </div>
         <div className="order-bill">
@@ -107,7 +107,7 @@ export const Order = () => {
           <div>
             <div className="price-detail">
               Total MRP
-              <div className="amount">Rs.11,589</div>
+              <div className="amount">{data.price}</div>
             </div>
           </div>
 
@@ -136,7 +136,7 @@ export const Order = () => {
           <div>
             <div className="total-amount">
               Total Amount
-              <div className="total">Rs.5,012</div>
+              <div className="total">{data.price}</div>
             </div>
           </div>
           <Link to={"/payment"} state={{ data }}>
